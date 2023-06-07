@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <script>
+            const hour = 9;
+
+            /* if (hour >= 6 && hour <= 12) {
+                console.log('Good morning!');
+            } else if (hour >= 13 && hour <= 17) {
+                console.log('Good afternoon!');
+            } else {
+                console.log('Good night!');
+            } */
+
+            const greeting = (hour >= 6 && hour <= 12)
+              ? `Good morning!`
+              : (hour >= 13 && hour <= 17)
+                ? `Good afternoon!`
+                : `Good night!`;
+
+                console.log(greeting);
+        </script>
+    </body>
+</html>
